@@ -170,6 +170,15 @@ body{
 	padding-bottom: 10px;
 	overflow: hidden;
 }
+.map-title{
+	position: absolute;
+	top: 100%;
+	z-index: 25;
+	font-family: 'Open Sans Condensed', 'Montserrat', Arial, sans-serif;
+	font-size: 50px;
+	color: #42433C;
+	left: 50%;
+}
 .subunit {
 		fill: none;
 		stroke: #fff;
