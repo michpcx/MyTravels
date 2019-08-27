@@ -12,11 +12,10 @@
         <link href="css/fonts.css" rel="stylesheet">
         <link href="css/travelCSS.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="js/main.js"></script>
         <script src="js/slider.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="main">
@@ -157,6 +156,29 @@
               function mouseoverLegend(datum, index) {
                   d3.selectAll('.subunit-label.la'+datum.id+datum.properties.name.replace(/[ \.#']+/g,''))
                       .style('display', 'inline-block');
+                  if(datum.id == "POL"){
+                    $('html,body').css('cursor','pointer');
+                  }else if (datum.id == "GBR") {
+                    $('html,body').css('cursor','pointer');
+                  }else if (datum.id == "FRA") {
+                    $('html,body').css('cursor','pointer');
+                  }else if (datum.id == "BEL") {
+                    $('html,body').css('cursor','pointer');
+                  }else if (datum.id == "NLD") {
+                    $('html,body').css('cursor','pointer');
+                  }else if (datum.id == "ESP") {
+                    $('html,body').css('cursor','pointer');
+                  }else if (datum.id == "DEU") {
+                    $('html,body').css('cursor','pointer');
+                  }else if (datum.id == "CZE") {
+                    $('html,body').css('cursor','pointer');
+                  }else if (datum.id == "KHM") {
+                    $('html,body').css('cursor','pointer');
+                  }else if (datum.id == "MYS") {
+                    $('html,body').css('cursor','pointer');
+                  }else if (datum.id == "QAT") {
+                    $('html,body').css('cursor','pointer');
+                  };
                   d3.selectAll('.subunit.ca'+datum.id)
                       .style('fill', '#bba9c9');
               }
@@ -164,13 +186,33 @@
               function mouseoutLegend(datum, index) {
                   d3.selectAll('.subunit-label.la'+datum.id+datum.properties.name.replace(/[ \.#']+/g,''))
                       .style('display', 'none');
+                  $('html,body').css('cursor','default');
                   d3.selectAll('.subunit.ca'+datum.id)
                       .style('fill', heatColor(datum));
               }
 
               function coutryclicked(datum, index) {
-                  //filter event for this country should be applied here
-                  console.log('coutryclicked datum', datum);
+                  if(datum.id == "POL"){
+                    window.location.pathname = 'countries/poland.html'
+                  }else if (datum.id == "GBR") {
+                    window.location.pathname = 'countries/greatbritain.html'
+                  }else if (datum.id == "FRA") {
+                    window.location.pathname = 'countries/france.html'
+                  }else if (datum.id == "BEL" || datum.id == "NLD") {
+                    window.location.pathname = 'countries/lowcountries.html'
+                  }else if (datum.id == "ESP") {
+                    window.location.pathname = 'countries/spain.html'
+                  }else if (datum.id == "DEU") {
+                    window.location.pathname = 'countries/germany.html'
+                  }else if (datum.id == "CZE") {
+                    window.location.pathname = 'countries/czech.html'
+                  }else if (datum.id == "KHM") {
+                    window.location.pathname = 'countries/cambodia.html'
+                  }else if (datum.id == "MYS") {
+                    window.location.pathname = 'countries/malaysia.html'
+                  }else if (datum.id == "QAT") {
+                    window.location.pathname = 'countries/qatar.html'
+                  };
               }
 
               function heatColor(d) {
