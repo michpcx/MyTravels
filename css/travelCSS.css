@@ -177,7 +177,8 @@ body{
 	font-family: 'Open Sans Condensed', 'Montserrat', Arial, sans-serif;
 	font-size: 50px;
 	color: #42433C;
-	left: 50%;
+	width: 100vw;
+	text-align: center;
 }
 .subunit {
 		fill: none;
@@ -200,7 +201,7 @@ svg{
 	z-index: 15;
 	margin-left: 50%;
 	transform: translateX(-50%);
-	margin-top: 50px;
+	margin-top: 130px;
 }
 .legend{
 	position: absolute;
