@@ -1,0 +1,85 @@
+/*            MAIN              */
+html,body, ul {
+	margin:0;
+	padding:0;
+}
+body{
+	background: url("../assets/countryImages/PL/4.jpg") fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+	background-color: #efdddc;
+}
+.arrow_div{
+  padding-top: 3%;
+  padding-left: 3%;
+  float: left;
+  z-index: 5;
+}
+.arrow{
+    width: 50px;
+    height: auto;
+}
+.main-div{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+	background-color: rgba(226, 205, 204, 0.8);
+}
+.main-div h1{
+	text-align: center;
+	color: #333333;
+	font-family: 'Amatic SC', Arial, sans-serif;
+	font-size: 80px;
+	margin-top: 10px;
+}
+.main-div p{
+	color: #333333;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	margin: 30px;
+}
+.flag{
+  width: 40px;
+  height: auto;
+}
+.date{
+	font-family: 'Sue Ellen Francisco', Arial, sans-serif;
+	font-size: 25px;
+}
+.docs-pictures {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.docs-pictures > li {
+  float: left;
+  width: 20%;
+  margin: 0 -1px -1px 0;
+  border: 1px solid transparent;
+  overflow: hidden;
+	padding: 10px;
+}
+
+.docs-pictures > li > img {
+  width: 100%;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+.docs-galley{
+	position: relative;
+	left: 50%;
+	transform: translateX(-43%);
+}
+
+
+
+
+@media screen and (max-width: 840px) {
+	.arrow_div{
+	  padding-left: 5%;
+	}
+}
