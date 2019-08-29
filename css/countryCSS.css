@@ -33,7 +33,12 @@ body{
 	left: 50%;
 	transform: translateX(-50%);
 	width: 80%;
+}
+.main-div-pl{
 	background-color: rgba(226, 205, 204, 0.8);
+}
+.main-div-kh{
+	background-color: rgba(204, 191, 163, 0.8);
 }
 .main-div h1{
 	text-align: center;
