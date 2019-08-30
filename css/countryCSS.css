@@ -18,6 +18,11 @@ body.frBody{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body.qaBody{
+	background: url('../assets/countryImages/QA/1.jpg') fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body{
 	height:100%;
 	background-color: #efdddc;
@@ -47,6 +52,9 @@ body{
 }
 .main-div-fr{
 	background-color: rgba(175, 205, 222, 0.8);
+}
+.main-div-qa{
+	background-color: rgba(214, 201, 207, 0.8);
 }
 .main-div h1{
 	text-align: center;
