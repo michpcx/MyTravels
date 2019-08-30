@@ -23,6 +23,11 @@ body.qaBody{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body.myBody{
+	background: url('../assets/countryImages/MY/11.jpg') fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body{
 	height:100%;
 	background-color: #efdddc;
@@ -55,6 +60,9 @@ body{
 }
 .main-div-qa{
 	background-color: rgba(214, 201, 207, 0.8);
+}
+.main-div-my{
+	background-color: rgba(224, 220, 177, 0.8);
 }
 .main-div h1{
 	text-align: center;
