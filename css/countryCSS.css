@@ -13,6 +13,11 @@ body.plBody{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body.frBody{
+	background: url('../assets/countryImages/FR/1.jpg') fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body{
 	height:100%;
 	background-color: #efdddc;
@@ -39,6 +44,9 @@ body{
 }
 .main-div-kh{
 	background-color: rgba(204, 191, 163, 0.8);
+}
+.main-div-fr{
+	background-color: rgba(175, 205, 222, 0.8);
 }
 .main-div h1{
 	text-align: center;
