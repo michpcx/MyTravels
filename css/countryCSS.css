@@ -43,6 +43,11 @@ body.deBody{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body.czBody{
+	background: url('../assets/countryImages/CZ/8.jpg') fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body{
 	height:100%;
 	background-color: #efdddc;
@@ -87,6 +92,9 @@ body{
 }
 .main-div-de{
 	background-color: rgba(28, 28, 28, 0.8);
+}
+.main-div-cz{
+	background-color: rgba(190, 226, 230, 0.8);
 }
 .main-div h1{
 	text-align: center;
