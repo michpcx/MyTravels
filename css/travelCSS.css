@@ -6,17 +6,6 @@ html,body, ul {
 body{
   background: #000;
 }
-.arrow_div{
-  position: absolute;
-  padding-top: 3%;
-  padding-left: 8%;
-  float: left;
-  z-index: 5;
-}
-.arrow{
-    width: 50px;
-    height: auto;
-}
 #main-Title-img{
   position: absolute;
   margin-left: 50%;
@@ -223,6 +212,28 @@ svg{
     height: 35px;
 		background: #3b598a;
 		float: left;
+}
+.footer{
+	position: absolute;
+	bottom: 2%;
+	right: 45%;
+	z-index: 20;
+}
+.footer p{
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-size: 17px;
+	color: #787a6d;
+	padding-left: 10px;
+	margin-top: 7px;
+	float: right;
+}
+.footer a{
+	text-decoration: none;
+	color: #6785b5;
+}
+.footer a:hover{
+	text-decoration: underline overline;
+	color: #a3b7d6;
 }
 
 @media screen and (max-width: 1300px) {
