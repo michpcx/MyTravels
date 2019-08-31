@@ -48,6 +48,11 @@ body.czBody{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body.ukBody{
+	background: url('../assets/countryImages/UK/5.jpg') fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body{
 	height:100%;
 	background-color: #efdddc;
@@ -95,6 +100,9 @@ body{
 }
 .main-div-cz{
 	background-color: rgba(190, 226, 230, 0.8);
+}
+.main-div-uk{
+	background-color: rgba(226, 205, 204, 0.8);
 }
 .main-div h1{
 	text-align: center;
