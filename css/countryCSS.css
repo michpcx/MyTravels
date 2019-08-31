@@ -33,6 +33,11 @@ body.esBody{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body.benlBody{
+	background: url('../assets/countryImages/BENL/1.jpg') fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body{
 	height:100%;
 	background-color: #efdddc;
@@ -71,6 +76,9 @@ body{
 }
 .main-div-es{
 	background-color: rgba(224, 220, 177, 0.8);
+}
+.main-div-benl{
+	background-color: rgba(195, 220, 222, 0.8);
 }
 .main-div h1{
 	text-align: center;
