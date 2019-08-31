@@ -28,6 +28,11 @@ body.myBody{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body.esBody{
+	background: url('../assets/countryImages/ES/1.jpg') fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body{
 	height:100%;
 	background-color: #efdddc;
@@ -62,6 +67,9 @@ body{
 	background-color: rgba(214, 201, 207, 0.8);
 }
 .main-div-my{
+	background-color: rgba(224, 220, 177, 0.8);
+}
+.main-div-es{
 	background-color: rgba(224, 220, 177, 0.8);
 }
 .main-div h1{
