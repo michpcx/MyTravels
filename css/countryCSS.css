@@ -38,6 +38,11 @@ body.benlBody{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body.deBody{
+	background: url('../assets/countryImages/DE/1.jpg') fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body{
 	height:100%;
 	background-color: #efdddc;
@@ -80,6 +85,9 @@ body{
 .main-div-benl{
 	background-color: rgba(195, 220, 222, 0.8);
 }
+.main-div-de{
+	background-color: rgba(28, 28, 28, 0.8);
+}
 .main-div h1{
 	text-align: center;
 	color: #333333;
@@ -92,6 +100,9 @@ body{
 	font-family: Arial, sans-serif;
 	font-size: 20px;
 	margin: 30px;
+}
+.main-div-de h1, .main-div-de p{
+	color: #ffffff;
 }
 .flag{
   width: 40px;
