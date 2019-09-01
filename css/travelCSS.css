@@ -288,3 +288,19 @@ svg{
 		transform: translate(50%, 250px);
 	}
 }
+@media screen and (max-width: 650px) {
+	svg{
+		display: none;
+	}
+	.legend{
+		display: none;
+	}
+	.map{
+		display: none;
+	}
+}
+@media screen and (min-width: 650px) {
+	.journal{
+		display: none;
+	}
+}
