@@ -30,21 +30,25 @@ body{
   width: 40px;
   height: auto;
 }
+.countries{
+	margin-top: 150px;
+}
 .country{
-	position: relative;
 	color: #ffffff;
+	position: relative;
 	font-family: 'Amatic SC', Arial, sans-serif;
 	font-size: 80px;
-	top: 20%;
 	width: 90%;
-	height: 25%;
+	height: 250px;
 	left:50%;
 	transform: translateX(-50%);
 	display: flex;
   justify-content: center;
   align-items: center;
 	margin-bottom:20px;
-
+}
+.last_country{
+	margin-bottom:80px;
 }
 .cambodia{
 	background-image: url('../assets/countryImages/KH/4s.jpg');
@@ -57,6 +61,25 @@ body{
 }
 .czech{
 	background-image: url('../assets/countryImages/CZ/1s.jpg');
+}
+.qatar{
+	background-image: url('../assets/countryImages/QA/1s.jpg');
+}
+.poland{
+	background-image: url('../assets/countryImages/PL/3s.jpg');
+}
+.britain{
+	background-image: url('../assets/countryImages/UK/7s.jpg');
+}
+.france{
+	background-image: url('../assets/countryImages/FR/1.jpg');
+	background-size:100% 100%;
+}
+.germany{
+	background-image: url('../assets/countryImages/DE/1s.jpg');
+}
+.low{
+	background-image: url('../assets/countryImages/BENL/1s.jpg');
 }
 
 
@@ -197,7 +220,7 @@ body{
 	font-family: 'Open Sans Condensed', 'Montserrat', Arial, sans-serif;
 	font-size: 50px;
 	color: #42433C;
-	width: 99vw;
+	width: 96vw;
 	text-align: center;
 }
 .subunit {
