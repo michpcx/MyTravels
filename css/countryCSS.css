@@ -53,6 +53,11 @@ body.ukBody{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body.uaBody{
+	background: url('../assets/countryImages/UA/2.jpg') fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body{
 	height:100%;
 	background-color: #efdddc;
@@ -103,6 +108,9 @@ body{
 }
 .main-div-uk{
 	background-color: rgba(226, 205, 204, 0.8);
+}
+.main-div-ua{
+	background-color: rgba(224, 220, 177, 0.8);
 }
 .main-div h1{
 	text-align: center;
