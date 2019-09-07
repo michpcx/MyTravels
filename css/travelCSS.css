@@ -50,6 +50,8 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.noDeco{
 	text-decoration: none;
 }
 .last_country{
