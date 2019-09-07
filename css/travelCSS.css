@@ -46,6 +46,10 @@ body{
   justify-content: center;
   align-items: center;
 	margin-bottom:20px;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .last_country{
 	margin-bottom:80px;
@@ -80,6 +84,9 @@ body{
 }
 .low{
 	background-image: url('../assets/countryImages/BENL/1s.jpg');
+}
+.ukraine{
+	background-image: url('../assets/countryImages/UA/4s.jpg');
 }
 
 
@@ -244,7 +251,7 @@ svg{
 	z-index: 15;
 	margin-left: 50%;
 	transform: translateX(-50%);
-	margin-top: 130px;
+	margin-top: 170px;
 }
 .legend{
 	position: absolute;
