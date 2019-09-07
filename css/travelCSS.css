@@ -50,6 +50,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+	text-decoration: none;
 }
 .last_country{
 	margin-bottom:80px;
@@ -252,13 +253,11 @@ svg{
 	margin-left: 50%;
 	transform: translateX(-50%);
 	margin-top: 130px;
-}
-g{
-	margin-top: 150px;
+	margin-bottom: -250px;
 }
 .legend{
 	position: absolute;
-	bottom: 6%;
+	bottom: 10%;
 	right: 20%;
 	z-index: 20;
 }
@@ -279,7 +278,7 @@ g{
 }
 .footer{
 	position: absolute;
-	bottom: 2%;
+	bottom: 3%;
 	left:50%;
 	transform: translateX(-50%);
 	z-index: 20;
