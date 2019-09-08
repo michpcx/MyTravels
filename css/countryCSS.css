@@ -2,6 +2,7 @@
 html,body, ul {
 	margin:0;
 	padding:0;
+	height:100%;
 }
 body.khBody{
 	background: url("../assets/countryImages/KH/6.jpg") fixed right top;
