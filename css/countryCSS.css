@@ -6,7 +6,14 @@ html,body, ul {
 body.khBody{
 	background: url("../assets/countryImages/KH/6.jpg") fixed right top;
 	background-repeat: no-repeat;
-	background-size: cover;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 body.plBody{
 	background: url('../assets/countryImages/PL/4.jpg') fixed right top;
