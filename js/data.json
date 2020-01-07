@@ -49,6 +49,14 @@
         {
           "key": "UKR",
           "doc_count": 1
+        },
+        {
+          "key": "NOR",
+          "doc_count": 1
+        },
+        {
+          "key": "IRL",
+          "doc_count": 1
         }
       ]
     }
