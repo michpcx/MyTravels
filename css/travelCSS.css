@@ -216,7 +216,7 @@ body{
 /*         Map section        */
 .map-section{
 	position: absolute;
-	background-image: linear-gradient(#fcf8e3, white, white, white);
+	background-image: linear-gradient(#b1c0e0, #e1e7f4, #e1e7f4, white);
 	top: 100%;
 	z-index: 15;
 	width: 100%;
