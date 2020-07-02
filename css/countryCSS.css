@@ -59,6 +59,21 @@ body.uaBody{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+body.alBody{
+	background: url('../assets/countryImages/AL/10.jpg') fixed left bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body.nwBody{
+	background: url('../assets/countryImages/NW/4.jpg') fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body.irBody{
+	background: url('../assets/countryImages/IR/4.jpg') fixed right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 body{
 	height:100%;
 	background-color: #efdddc;
@@ -112,6 +127,15 @@ body{
 }
 .main-div-ua{
 	background-color: rgba(224, 220, 177, 0.8);
+}
+.main-div-al{
+	background-color: rgba(249, 167, 167, 0.75);
+}
+.main-div-nw{
+	background-color: rgba(161, 138, 138, 0.75);
+}
+.main-div-ir{
+	background-color: rgba(187, 240, 199, 0.75);
 }
 .main-div h1{
 	text-align: center;
