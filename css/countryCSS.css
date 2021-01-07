@@ -2,7 +2,7 @@
 html,body, ul {
 	margin:0;
 	padding:0;
-	height:120%;
+	height:99%;
 }
 body.khBody{
 	background: url("../assets/countryImages/KH/6.jpg") fixed right top;
@@ -75,7 +75,7 @@ body.irBody{
 	background-size: cover;
 }
 body{
-	height:100%;
+	height:99%;
 	background-color: #efdddc;
 }
 .arrow_div{
@@ -89,11 +89,14 @@ body{
     height: auto;
 }
 .main-div{
-	position: absolute;
+	position: relative;
 	top: 20%;
 	left: 50%;
 	transform: translateX(-50%);
 	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 .main-div-pl{
 	background-color: rgba(226, 205, 204, 0.8);
@@ -184,6 +187,7 @@ body{
 	position: relative;
 	left: 50%;
 	transform: translateX(-43%);
+	overflow: hidden;
 }
 
 
