@@ -13,6 +13,17 @@ body{
   bottom:0;
   width:100%;
 }
+.image-main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  z-index: 0;
+}
 #main-quote-img{
   position: absolute;
   margin-left: 50%;
@@ -21,17 +32,6 @@ body{
   z-index: 5;
   width: 60%;
   text-align: center;
-}
-.refresh{
-    position: absolute;
-    bottom: 20px;
-    right: 2%;
-    color: #000000;
-    white-space: nowrap;
-}
-.refresh-icon{
-	width: 200px;
-	height: auto;
 }
 .flag{
   width: 40px;
@@ -111,78 +111,6 @@ body{
 
 
 
-/*            Slideshow             */
-.image-main {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    color: transparent;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: none;
-    opacity: 0;
-    z-index: 0;
-	-webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear infinite 0s;
-    -moz-animation: imageAnimation 36s linear infinite 0s;
-    -o-animation: imageAnimation 36s linear infinite 0s;
-    -ms-animation: imageAnimation 36s linear infinite 0s;
-    animation: imageAnimation 36s linear infinite 0s;
-}
-/* Animation for the slideshow images */
-@-webkit-keyframes imageAnimation {
-    0% { opacity: 1;
-    -webkit-animation-timing-function: ease-in; }
-    5% { opacity: 1;
-         -webkit-animation-timing-function: ease-out; }
-    20% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-moz-keyframes imageAnimation {
-    0% { opacity: 1;
-    -moz-animation-timing-function: ease-in; }
-    5% { opacity: 1;
-         -moz-animation-timing-function: ease-out; }
-    20% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-o-keyframes imageAnimation {
-    0% { opacity: 1;
-    -o-animation-timing-function: ease-in; }
-    5% { opacity: 1;
-         -o-animation-timing-function: ease-out; }
-    20% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-ms-keyframes imageAnimation {
-    0% { opacity: 1;
-    -ms-animation-timing-function: ease-in; }
-    5% { opacity: 1;
-         -ms-animation-timing-function: ease-out; }
-    20% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@keyframes imageAnimation {
-    0% { opacity: 1;
-    animation-timing-function: ease-in; }
-    5% { opacity: 1;
-         animation-timing-function: ease-out; }
-    20% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-/* Show at least something when animations not supported */
-.no-cssanimations .cb-slideshow li span{
-	opacity: 1;
-}
-
-
 /*         Map section        */
 .map-section{
 	position: absolute;
@@ -194,8 +122,7 @@ body{
 }
 .map-title{
 	position: absolute;
-	top: 100%;
-	z-index: 25;
+	z-index: -4;
 	font-family: 'Open Sans Condensed', 'Montserrat', Arial, sans-serif;
 	font-size: 50px;
 	color: #42433C;
@@ -261,14 +188,6 @@ svg{
 	padding-left: 10px;
 	margin-top: 7px;
 	float: right;
-}
-.footer a{
-	text-decoration: none;
-	color: #6785b5;
-}
-.footer a:hover{
-	text-decoration: underline overline;
-	color: #a3b7d6;
 }
 
 @media screen and (max-width: 1300px) {
