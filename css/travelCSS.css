@@ -6,6 +6,13 @@ html,body, ul {
 body{
   background: #000;
 }
+.main{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+}
 #main-Title-img{
   position: absolute;
   margin-left: 50%;
@@ -227,8 +234,7 @@ body{
 .map-section{
 	position: absolute;
 	background-image: linear-gradient(#b1c0e0, #e1e7f4, #e1e7f4, white);
-	top: 100%;
-	z-index: 15;
+	z-index: -5;
 	width: 100%;
 	padding-bottom: 10px;
 	overflow: hidden;

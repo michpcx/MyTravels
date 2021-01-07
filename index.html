@@ -41,8 +41,8 @@
                 <img class="refresh-icon" src="assets/refresh.png" />
             </div>
         </div>
-            <h1 class="map-title map"> My travel map</h1>
-            <h1 class="map-title journal"> My travel journal</h1>
+        <h1 class="map-title map"> My travel map</h1>
+        <h1 class="map-title journal"> My travel journal</h1>
         <div class="map-section">
           <div class="countries">
             <a class="noDeco" href="countries/cambodia.html"><div class="country cambodia">Cambodia<img class="flag" src="assets/flags/kh.png" alt"kh" /></div></a>
@@ -253,6 +253,10 @@
                   if (quantiles['0.95'] == minDocCount) return palette;
                   return palette;
               }
+
+              setTimeout(function() {
+              $('.main').fadeOut(500);
+            }, 4000);
           </script>
 
           <div class="legend">
