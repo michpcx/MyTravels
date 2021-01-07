@@ -7,13 +7,13 @@ body{
   background: #000;
 }
 .main{
-    position:absolute;
-    top:0;
-    left:0;
-    bottom:0;
-    width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  width:100%;
 }
-#main-Title-img{
+#main-quote-img{
   position: absolute;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -112,16 +112,7 @@ body{
 
 
 /*            Slideshow             */
-.cb-slideshow,
-.cb-slideshow:after {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: 0;
-}
-.cb-slideshow li span {
+.image-main {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -140,47 +131,9 @@ body{
     -ms-animation: imageAnimation 36s linear infinite 0s;
     animation: imageAnimation 36s linear infinite 0s;
 }
-.cb-slideshow #image1{
-
-}
-.cb-slideshow #image2 {
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-}
-.cb-slideshow #image3 {
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-}
-.cb-slideshow #image4 {
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s;
-}
-.cb-slideshow #image5 {
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s;
-}
-.cb-slideshow #image6 {
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s;
-}
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation {
-    0% { opacity: 0;
+    0% { opacity: 1;
     -webkit-animation-timing-function: ease-in; }
     5% { opacity: 1;
          -webkit-animation-timing-function: ease-out; }
@@ -189,7 +142,7 @@ body{
     100% { opacity: 0 }
 }
 @-moz-keyframes imageAnimation {
-    0% { opacity: 0;
+    0% { opacity: 1;
     -moz-animation-timing-function: ease-in; }
     5% { opacity: 1;
          -moz-animation-timing-function: ease-out; }
@@ -198,7 +151,7 @@ body{
     100% { opacity: 0 }
 }
 @-o-keyframes imageAnimation {
-    0% { opacity: 0;
+    0% { opacity: 1;
     -o-animation-timing-function: ease-in; }
     5% { opacity: 1;
          -o-animation-timing-function: ease-out; }
@@ -207,7 +160,7 @@ body{
     100% { opacity: 0 }
 }
 @-ms-keyframes imageAnimation {
-    0% { opacity: 0;
+    0% { opacity: 1;
     -ms-animation-timing-function: ease-in; }
     5% { opacity: 1;
          -ms-animation-timing-function: ease-out; }
@@ -216,7 +169,7 @@ body{
     100% { opacity: 0 }
 }
 @keyframes imageAnimation {
-    0% { opacity: 0;
+    0% { opacity: 1;
     animation-timing-function: ease-in; }
     5% { opacity: 1;
          animation-timing-function: ease-out; }
