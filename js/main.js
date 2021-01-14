@@ -14,5 +14,9 @@ $(document).ready(function() {
     arrChecker.push(bg);
     $('.image-main').css('background-image', 'url('+path+bg+')');
 
+    setTimeout(function () {
+        $('.map-wrapper').css('display', 'initial');
+    }, 1000);
+
 
 });

@@ -4,7 +4,7 @@ html,body, ul {
 	padding:0;
 }
 body{
-  background: #000;
+  background: #ffffff;
 }
 .main{
   position:absolute;
@@ -112,6 +112,9 @@ body{
 
 
 /*         Map section        */
+.map-wrapper{
+	display: none;
+}
 .map-section{
 	position: absolute;
 	background-image: linear-gradient(#b1c0e0, #e1e7f4, #e1e7f4, white);
